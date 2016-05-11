@@ -40,6 +40,11 @@ p {
   border: none;
   margin-bottom: 0;
 }
+
+.logo {
+  color: #59CFE3;
+}
+
 ul li {
   list-style: none;
 }
@@ -55,7 +60,7 @@ header .app-showcase {
 header .block {
   padding-top: 70px;
 }
-header .block .logo {
+header .block {
   display: inline-block;
   margin-bottom: 70px;
 }
@@ -66,7 +71,7 @@ header .block h2 {
 header .block p {
   margin-bottom: 27px;
   margin-top: 0;
-  color: #383838;
+  color: #FFFFFF;
 }
 header .block .download-btn a {
   display: inline-block;
