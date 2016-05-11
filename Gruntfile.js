@@ -31,17 +31,21 @@ module.exports = function(grunt) {
         files: ['Gruntfile.js'] 
       },
       css: {
-        files: 'src/assets/stylesheets/*.css'
+        files: 'src/assets/stylesheets/*.css',
+        tasks: ['cssmin']
+
+      },
+      images: {
+        files: 'src/assets/images/**',
+        tasks: ['copy:images']
       },
       html: {
         files: ['src/*.html'],
         tasks: ['processhtml'],
       },
       sass: {
-          files: [
-              'assets/sass/*.scss'
-          ],
-          tasks: ['sass']
+        files: ['assets/sass/*.scss'],
+        tasks: ['sass']
       }
     },
     connect: {
