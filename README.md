@@ -9,3 +9,8 @@ npm install
 ```bash
 grunt serve
 ```
+
+## Deploy to GitHub pages
+```bash
+grunt deploy
+```
