@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    htmlmin: { 
+    htmlmin: {
       dist:{
         options: {
           removeComments: true,
@@ -27,8 +27,8 @@ module.exports = function(grunt) {
       options: {
         livereload: true,
       },
-      grunt: { 
-        files: ['Gruntfile.js'] 
+      grunt: {
+        files: ['Gruntfile.js']
       },
       css: {
         files: 'src/assets/stylesheets/*.css',
@@ -68,7 +68,7 @@ module.exports = function(grunt) {
     uglify: {
       target: {
         files: {
-          'dist/assets/javascripts/app.min.js': ['bower_components/jquery/dist/jquery.js', 'src/assets/javascripts/*.js', 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js']
+          'dist/assets/javascripts/app.min.js': ['bower_components/jquery/dist/jquery.js', 'src/assets/javascripts/*.js', 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js', 'bower_components/firebase/firebase.js']
         }
       }
     },
@@ -106,7 +106,7 @@ module.exports = function(grunt) {
             src: ['**/*.scss'],
             dest: 'src/assets/scss/'
         }
-      
+
     },
     sass: {
       options: {
