@@ -27,9 +27,7 @@ px      68    160    252    344    436    528    620    712    */
     margin-bottom: 0;
     padding-bottom: 40px;
   }
-  #feature {
-    padding: 80px 0;
-  }
+
   #team .media .pull-left {
     padding-right: 10px;
   }
@@ -75,9 +73,7 @@ px      68    160    252    */
     max-width: 100%;
     margin-bottom: 0;
   }
-  #feature {
-    padding: 80px 0;
-  }
+
   #team .media {
     margin-bottom: 20px;
   }
@@ -101,6 +97,6 @@ px      68    160    252    */
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
 /*	Retina media query.
-	Overrides styles for devices with a 
+	Overrides styles for devices with a
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
