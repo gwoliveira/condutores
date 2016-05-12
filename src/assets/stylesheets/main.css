@@ -113,6 +113,10 @@ header .block .download-btn a {
   margin-bottom: -228px;
 }
 
+#feature {
+  padding: 325px 0 105px;
+}
+
 #feature .title {
   margin-bottom: 60px;
 }
