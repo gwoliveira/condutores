@@ -85,6 +85,10 @@ module.exports = function(grunt) {
           src: 'src/favicon.ico',
           dest: 'dist/favicon.ico'
         },
+        cname: {
+          src: 'CNAME',
+          dest: 'dist/CNAME'
+        },
         images: {
           cwd: 'src/assets/images',  // set working folder / root to copy
           src: '*',           // copy all files and subfolders
