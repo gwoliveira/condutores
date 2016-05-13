@@ -164,8 +164,8 @@ footer .social-link ul li a {
 }
 
 .btn-xl {
-  color: #ffffff;
-  background-color: #fed136;
+  color: #000000;
+  background-color: #fec503;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -179,7 +179,7 @@ footer .social-link ul li a {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: #ffffff;
+  color: #333333;
   background-color: #fec503;
   border-color: #f6bf01;
 }
