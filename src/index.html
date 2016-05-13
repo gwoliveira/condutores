@@ -20,7 +20,6 @@
         <link rel="stylesheet" href="assets/stylesheets/main.css">
         <link rel="stylesheet" href="assets/stylesheets/responsive.css">
         <!-- /build -->
-        <!-- Js -->
     </head>
 
     <body>
@@ -209,7 +208,7 @@
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
                                     <div id="success"></div>
-                                    <button id="enviar" class="btn btn-success btn-xl" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'contact-form';">Enviar</button>
+                                    <button id="enviar" class="btn btn-success btn-xl">Enviar</button>
                                 </div>
                             </div>
                     </div>
@@ -217,11 +216,7 @@
             </div>
         </div>
 
-
-
-        <!--<script src="js/vendor/modernizr-2.6.2.min.js"></script>-->
         <!-- build:js assets/javascripts/app.min.js -->
-
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/bootstrap-sass/bootstrap.js"></script>
         <script src="bower_components/firebase/firebase.js"></script>
@@ -239,6 +234,12 @@
                var message = $('#message').val();
               myDataRef.push({name: name, email: email, phone: phone, message: message});
               $('#myModal').modal('show');
+              ga('send', {
+                  hitType: 'event',
+                  eventCategory: 'button',
+                  eventAction: 'click',
+                  eventLabel: 'contact-form'
+                });
             });
 
         </script>
@@ -250,11 +251,7 @@
 
           ga('create', 'UA-77642546-1', 'auto');
           ga('send', 'pageview');
-
         </script>
-
-
-
 
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
           <div class="modal-dialog">
@@ -265,7 +262,7 @@
               </div>
               <div class="modal-body">
                 <p>Seu contato foi enviado com sucesso</p>
-                <p>Em breve estaremos enviado uma proposta incrivel</p>
+                <p>Em breve você receberá uma proposta incrível.</p>
               </div>
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
