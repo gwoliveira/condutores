@@ -187,7 +187,7 @@
             new WOW().init();
             var myDataRef = new Firebase('https://vanzeiro.firebaseio.com');
             $('.enviar').click(function(e) {
-                var par = $(event.target).parent();
+                var par = $(e.target).parent();
                 var name = par.find('.name').val();
                 var email = par.find('.email').val();
                 var phone = par.find('.phone').val();
