@@ -15,6 +15,11 @@ px      68    160    252    344    436    528    620    712    */
   .download-btn a img {
     width: 150px;
   }
+
+  #feature {
+    padding: 150px 0 50px;
+  }
+
   #service .block h3 {
     font-size: 22px;
   }
@@ -66,12 +71,17 @@ px      68    160    252    */
   .download-btn a img {
     width: 130px;
   }
-  #showcase {
-    padding-bottom: 50px;
+
+  #feature {
+    padding: 50px 0 50px;
   }
+
+
+
+
   #showcase .block img {
     max-width: 100%;
-    margin-bottom: 0;
+    margin-bottom: -65px;
   }
 
   #team .media {
