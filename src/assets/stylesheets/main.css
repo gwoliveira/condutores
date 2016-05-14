@@ -58,9 +58,7 @@ header {
 header .app-showcase {
   text-align: right;
 }
-header .block {
-  padding-top: 70px;
-}
+
 header .block {
   display: inline-block;
   margin-bottom: 70px;
@@ -81,7 +79,7 @@ header .block .download-btn a {
 
 
 #service {
-  padding: 80px 0 100px;
+  padding: 30px 0 110px;
 }
 #service .title {
   padding-bottom: 90px;
@@ -108,14 +106,15 @@ header .block .download-btn a {
   baxkground-repeat: no-repeat;
 }
 #showcase .block {
-  padding-top: 90px;
+
 }
 #showcase .block img {
-  margin-bottom: -228px;
+  margin-bottom: -130px;
+  margin-top: -110px
 }
 
 #feature {
-  padding: 325px 0 105px;
+  padding: 150px 0 105px;
 }
 
 #feature .title {
@@ -165,7 +164,7 @@ footer .social-link ul li a {
 }
 
 .btn-xl {
-  color: #000000;
+  color: #ffffff;
   background-color: #fec503;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -174,6 +173,7 @@ footer .social-link ul li a {
   border-radius: 3px;
   font-size: 18px;
   padding: 10px 40px;
+  width: 100%;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -269,4 +269,46 @@ div#formulario :-ms-input-placeholder {
 }
 div#formulario .text-danger {
   color: #e74c3c;
+}
+
+
+.icone{
+  font-size: 2em;
+  color: #efbf08;
+  padding: 30px;
+  border-radius: 50px;
+  border: 2px solid #efbf08;
+}
+
+.titlealem{
+  text-align: center;
+  color: #778699;
+  padding-bottom: 30px;
+}
+
+.yellow input {
+  border: 1px solid #efbf08;
+}
+
+.yellow button{
+  color: #ffffff;
+  background-color: #fec503;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 7px 22px;
+}
+
+.yellow {
+    text-align: center;
+}
+
+.rodape{
+  height: 50px;
+  background-color: #24374b;
+}
+.divider{
+  height:2px;
+  background-color: #efbf08;
 }
